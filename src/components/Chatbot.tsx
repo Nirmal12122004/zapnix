@@ -31,7 +31,7 @@ const sendToWebhook = async (userMessage: string): Promise<string> => {
       restaurant: 'Zapnix'
     };
 
-    const response = await fetch('https://agentcalloff.app.n8n.cloud/webhook/zapnix-chatbot', {
+    const response = await fetch('https://coecapstone.app.n8n.cloud/webhook/zapnix-chatbot', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
