@@ -14,7 +14,7 @@ const Contact = () => {
     const data = Object.fromEntries(formData.entries());
 
     try {
-      const res = await fetch("https://coecapstone.app.n8n.cloud/webhook/reservation", {  // ⬅️ replace with your n8n webhook URL
+      const res = await fetch("https://coecapstone2.app.n8n.cloud/webhook/reservation", {  // ⬅️ replace with your n8n webhook URL
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
